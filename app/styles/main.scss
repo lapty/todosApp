@@ -1,0 +1,115 @@
+
+// Custom Styles
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align:center;
+  background-image:url(../images/seamless_paper_texture.png);
+
+  h1 {
+    text-align:center;
+    color:#d1d1d1;
+    font-size:4em;
+    text-shadow:grey -.7px -.7px;
+    margin:0px;
+    padding:0px;
+
+  }
+}
+
+
+.block {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0px 0px 20px 0px #888888;
+  border-top:15px #94837c solid;
+}
+
+.bottom {
+  position:relative;
+  top:0px;
+  width:600px;
+  border:1px red solid;
+  ul li {
+    display:inline-block;
+  }
+}
+
+.tasks {
+  width:600px;
+  background-color:#f5f5f5;
+}
+
+ul li {
+  list-style-type:none;
+}
+
+.topbox {
+  text-align:right;
+  border-bottom:1px grey dotted;
+  background: #f5f5f5;
+
+  img {
+    margin-right:17px;
+  }
+}
+
+.taskbox {
+  border-bottom:1px grey dotted;
+  display:block;
+  width:600px;
+  height:40px;
+  background: #f5f5f5;
+  p {
+    margin-top:0px;
+    padding-top:10px;
+    text-align:left;
+  }
+}
+
+
+
+
+input {
+  width:550px;
+  height:68px;
+  background:#f5f5f5;
+  color:#a9a9a9;
+  font-style:italic;
+  font-size:25px;
+  font-weight:lighter;
+  border:none;
+
+}
+
+
+
+//edits placeholder text
+.taskEdit {
+  height:21px;
+  width:300px;
+  font-size:1em;
+  color:black;
+  font-style:normal;
+  font-weight:normal;
+  
+}
+
+
+
+.check {
+  float:left;
+  margin-right:20px;
+  margin-left:10px
+}
+
+.delete {
+  float:right;
+  margin-right:10px
+
+}
+
+
+.lineThru {
+  text-decoration:line-through;
+}
