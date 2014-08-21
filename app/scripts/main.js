@@ -39,7 +39,8 @@ var toDo = {
       $(this).children('p').children('.taskEdit').show();
       $(this).children('p').children('span').hide()
     });
-  },
+
+    },
 
   render: function (template, data, $element) {
     var html = _.template(template, data);
